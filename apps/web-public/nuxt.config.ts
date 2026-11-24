@@ -1,0 +1,1 @@
+export default defineNuxtConfig({ssr:true,devtools:{enabled:false},css:['~/assets/main.css'],app:{head:{htmlAttrs:{lang:'es'},meta:[{name:'robots',content:'noindex,nofollow'}]}},nitro:{prerender:{routes:['/','/cursos/marketing-digital-ia','/formacion-bonificada']}}})
